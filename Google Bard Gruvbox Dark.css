@@ -1,9 +1,9 @@
-    /* ==UserStyle==
-@name         Google Bard Dark Mode
+        /* ==UserStyle==
+@name         Google Bard Gruvbox Dark
 @namespace    USO Archive
-@version      20230509.15.43
+@version      1.0.0
 @description  "A Dark Theme for Google Bard \"bard.google.com\""
-@author       Henri Fernandes
+@author       bilalazhar509@gmsil.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
 
 @-moz-document domain(bard.google.com) {
@@ -12,64 +12,93 @@
   --v-ani-time: 3.5s;
   --ani-rbw2-col: #2cedb3;
 }
-    /*FRONT PAGE CHANGES GO HERE*/
-  
-  /*Hello Again*/  
-    :root .dark-theme .gmat-headline-1 {
-    font-size: 2.25rem;
-    font-weight: 400;
-    line-height: 2.75rem;
-    font-family: "Google Sans","Helvetica Neue",sans-serif;
-    letter-spacing: normal;
-        color:#babd1c;
-}
     
-    /*Tells me what's on your mind*/
-    :root .dark-theme .gmat-headline-4{
-        color:#fabd2f;
-    }
+    /*FRONT PAGE CHANGES GO HERE*/
+    /*HELLO AGAIN H! HEADING*/
+    /* Recommended to use h1 selector */
+  h1 {
+    color: #d5c4a1 !important;
+}
+
+    /*H2 color change */
+    /*Tell me What's on your mind  */
+h2 {
+    color: #ebdbb2 !important;
+}
+
+    /*Prompts Containter backgound color*/
+div.prompt-example{
+  /* CSS styles for the prompt suggestion card element */
+    background-color: #3c3836 !important;
+}
+
+    
+  
  /*Prompt Suggestion Color*/   
     :root .dark-theme .gmat-mdc-chip.mat-mdc-chip .mdc-evolution-chip__text-label{
-        color:#ebdbb2;
+        color:#fabd2f;
     }
     
-    /*Chat Borders*/
-    [_nghost-ng-c1959720327] .prompt-example[_ngcontent-ng-c1959720327] {
-    border-radius: 24px;
-    padding: 20px 20px 12px;
-    background: #3c3836;
-    overflow: hidden;
-    min-height: 212px;
-}
-    /*UNDERSTNAD CREATE EXPLORE*/
-
-[_nghost-ng-c1959720327] .prompt-example[_ngcontent-ng-c1959720327] header.gradient.gradient-1[_ngcontent-ng-c1959720327],
-[_nghost-ng-c1959720327] .prompt-example[_ngcontent-ng-c1959720327] header.gradient.gradient-2[_ngcontent-ng-c1959720327],
-[_nghost-ng-c1959720327] .prompt-example[_ngcontent-ng-c1959720327] header.gradient.gradient-3[_ngcontent-ng-c1959720327],
-[_nghost-ng-c1959720327] .prompt-example[_ngcontent-ng-c1959720327] header.gradient.gradient-4[_ngcontent-ng-c1959720327] {
-    color: #d5c4a1;
+/*Selected all three UNDDERSTAND < CREATE < EXPLORE< */
+.prompt-example h3.gradient.gradient-1,
+.prompt-example h3.gradient.gradient-2 ,
+.prompt-example h3.gradient.gradient-3 {
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    color: #fbf1c7 !important;
+    text-fill-color: initial !important;
 }
 
+    
+ /*sugested prompts property color*/
+    .mat-mdc-chip-action-label {
+    color: #fabd2f !important;
+}
 
+        /*SUGGESTED PROMPTS BUTTON*/
+    
+/*Suggested Prompts Button color */
+    /*Added custom roundess to the button as well*/
+.mdc-evolution-chip__action {
+    background-color: rgb(35, 35, 35) !important;
+    border-radius: 25px !important;
+}
+
+    /*Change of color when you hover over the button */
+.mdc-evolution-chip__action:hover {
+    background-color: #427b58 !important;
+}    
+    
+    /*Baclground color of the chat container*/
+    /*Breaks often */
+   .chat-container {
+    background-color: rgb(35, 35, 35) !important;
+}
+
+    
+    
     /*Enter Prompt Button*/
     .ql-editor p, .ql-editor ol, .ql-editor ul, .ql-editor pre, .ql-editor blockquote, .ql-editor h1, .ql-editor h2, .ql-editor h3, .ql-editor h4, .ql-editor h5, .ql-editor h6{
-        color:#ebdbb2 ; 
+        color:#d6bc8c ; 
     }
     
-    
-    
-    
-
-
-    
-      
-    /*Suggested prompts on the home page  , new chat on home page and show more button on home page color*/
-    .mat-mdc-button .mdc-button__label, .mat-mdc-unelevated-button .mdc-button__label, .mat-mdc-raised-button .mdc-button__label, .mat-mdc-outlined-button .mdc-button__label {
-
-        color : #fb4934; !important 
-        
+    /*Old chats color*/
+    /*Sidebar conversations color fixed as well */
+    .conversation-title {
+    color: #fabd2f !important;
 }
 
+/*The selextion color of the convo */
+    /*Old ugly green color will be replaced here */
+.conversation.selected {
+    background-color: #3c3836 !important;
+}
+
+    
+    
+    
+    
   
     
     
@@ -114,15 +143,13 @@
     /*Top black bar*/
     /*Top bard experiment hidden*/
     .gb_Ka .gb_ld.gb_qd.gb_rd {
-        opacity:0.3 ;
+        opacity:0.5 ;
     }
     /*Bard experiment hidden*/
 .gb_Jc .gb_ad .gb_Hc:not(.gb_Hd) {
     opacity: 0; !important
 }
-  
-/*changed the color of the top black bar*/
- 
+   
     
     /* Change the background color of the header */
 header.gb_Ka {
@@ -143,54 +170,7 @@ header.gb_Ka {
   background-color: #333; /* Dark background */
 }
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /*SIDE BAR OLDER QUESTIONS*/
-    
-    .conversations-container[_ngcontent-ng-c2718875392] .conversation[_ngcontent-ng-c2718875392] .conversation-title[_ngcontent-ng-c2718875392] {
-    color : #babd1c;
-    }
-    
-    
-    
-    
-    
-    
-    
-   /* class="chat-container ng-tns-c3497705168-1 ng-star-inserted at-least-mobile-large at-least-desktop-small"*/
-    
-.chat-container[_ngcontent-ng-c3497705168] {
-    background-color: #232323;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -moz-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -moz-box-orient: vertical;
-    -moz-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    overflow-x: hidden;
-    max-width: 1200px;
-}
-    
+  
    /*Front PAGE DONE*/
       /*Front PAGE DONE*/
       /*Front PAGE DONE*/
@@ -365,7 +345,7 @@ div.markdown>p:hover,
 
     /*Main bard may display adn recent button clor*/
 ul, .gmat-overline, li:before, .gmat-caption{
-  color: #d1bca8 !important;
+  color: #928374 !important;
 }
     
     
@@ -414,88 +394,84 @@ code,.faq-button-ogb{
         
 
 
-    /*Code changes in here*/
-    /*Code keywords*/
-        
-        .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-keyword, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-selector-attr, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-selector-class, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-selector-id, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-selector-pseudo, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-template-tag, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-type{
-          color: #458588;  
-        }
- 
-    /*Code block numbers*/
-        .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-attr, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-link, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-literal, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-number, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-symbol{
-            color: #fb4934;
-        }
-
-    /*code block titles*/
-        .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-class, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-title{
-           color: #fabd2f; 
-        }
-
-    /*code block strings*/
-        .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-addition, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-code, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-string{
-             color: #eb85a1;
-        }
-        
-
-}
-    /*code block comments*/
-    .code-block[_ngcontent-ng-c165205079] code[_ngcontent-ng-c165205079] .hljs-comment {
-    color: #ebdbb2;
-}
-    
-span.hljs-comment {
-    color: #766313;
-}
-
-    
-    /*Meta comment*/
-    .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-meta, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-meta-keyword, .code-block[_ngcontent-ng-c165205079]   code[_ngcontent-ng-c165205079]     .hljs-meta-string{
-        color : #5fb9e6; 
-    }
 
 
-    
-    /*code fucntions prarm*/
-    .hljs-params {
-        color:#fb4934;
-    }
-    
-
-    /*sources links*/
-    .sources-container[_ngcontent-ng-c4024265601] .recitations-list[_ngcontent-ng-c4024265601] .recitation-list-content[_ngcontent-ng-c4024265601] .recitation-link[_ngcontent-ng-c4024265601] a {
-    color: #fb4934;
-    text-decoration: none;
-    outline-color: var(--bard-color-strong-focus-indicator);
-}
     
     /*editor suggestions*/
 .mat-mdc-button .mdc-button__label, .mat-mdc-unelevated-button .mdc-button__label, .mat-mdc-raised-button .mdc-button__label, .mat-mdc-outlined-button .mdc-button__label {
     z-index: 1;
-    color:#fb4934;
+    color:#8ec07c !important;
 }   
     
-       
+     
         
-    /*Code disclaimer sufffix */
-    .code-block[_ngcontent-ng-c1217534234] .code-block-decoration[_ngcontent-ng-c1217534234] .disclaimer-suffix[_ngcontent-ng-c1217534234] {
-    color: #7c7233;
+        
+        /*Code changes */
+        /*Important is used with every keyword as well*/
+
+        
+        
+  /*Code keywords*/
+.code-block code .hljs-keyword,
+.code-block code .hljs-selector-attr,
+.code-block code .hljs-selector-class,
+.code-block code .hljs-selector-id,
+.code-block code .hljs-selector-pseudo,
+.code-block code .hljs-template-tag,
+.code-block code .hljs-type {
+    color: #458588 !important;
 }
 
+/*Code block numbers*/
+.code-block code .hljs-attr,
+.code-block code .hljs-link,
+.code-block code .hljs-literal,
+.code-block code .hljs-number,
+.code-block code .hljs-symbol {
+    color: #fb4934 !important;
+}
+
+/*code block titles*/
+.code-block code .hljs-class,
+.code-block code .hljs-title {
+    color: #fabd2f !important;
+}
+
+/*code block strings*/
+.code-block code .hljs-addition,
+.code-block code .hljs-code,
+.code-block code .hljs-string {
+    color: #eb85a1 !important;
+}
+
+/*code block comments*/
+.code-block code .hljs-comment {
+    color: #ebdbb2 !important;
+}
+
+/*Meta comment*/
+.code-block code .hljs-meta,
+.code-block code .hljs-meta-keyword,
+.code-block code .hljs-meta-string {
+    color: #5fb9e6 !important;
+}
+
+/*code functions param*/
+.hljs-params {
+    color: #fb4934 !important;
+}
+
+
    
-    
-    /*hide bard logo*/
-    .logo_primary[_ngcontent-ng-c4194232779]   img[_ngcontent-ng-c4194232779]{
-        visibility : hidden !important 
-    }
+
     
     
     
     
-    /*Table*/
-    .markdown[_ngcontent-ng-c1188172251]     table td{
-        color:#babd1c;
-    }
+
     
+
+
   
 
     
@@ -505,19 +481,45 @@ span.hljs-comment {
   background-color: #d1bca8;  /* Replace with your desired color */
 }
     
+    
+ 
+    
+    
+    
+    /*Markdown table color*/
+    /*Table text color override*/
+   
+.markdown table td {
+    color: #d6bc8c !important; /* Gruvbox green color */
+}
 
+    /*Change the color of the table text td when you hover over it */
+    /*You just the text in the active column will be highlighted*/
+.markdown table td:hover {
+    color: #fabd2f !important; /* Gruvbox green color on hover */
+}
 
+/*Set the table footer to black*/
+    /*Makes export to sheets and other text more prominent here*/
+.table-footer {
+    background-color: rgb(35, 35, 35) !important;
+}
+    /*Markdown table top border color is changed to suit the dark theme beter*/
+    /*Text color of the heading tr is changed as well*/
+    
+    .markdown table th{
+        color : #babd1c !important;
+        background-color: rgb(35, 35, 35) !important;
+    }
 
 
 
     
-    
 
-
+    }
 
     
     
 }
-
 
 
