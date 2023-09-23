@@ -89,7 +89,9 @@ Two right next to the icon shows that there are two styles active for the specif
 
 --------------------------------
 ### Google Bard Gruvbox dark theme hover preview
+hanges the color of font when you hover over it for better reading
 
+- heres a perview
 
 
 https://github.com/bilalazh/Google-Bard-Gruvbox-Dark/assets/139261053/324687c4-ea49-41f8-8da2-bb219afd7004
