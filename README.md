@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Description](#description)
-2. [Known Issues](#known-issues)
+2. [Known Issues](#Howto-edit)
 3. [Installation Instructions](#installation-instructions)
 4. [Screenshot](#screenshot)
 
@@ -10,12 +10,12 @@
 
 This user style applies the  gruvbox theme to  [Google Bard Website](https://bard.google.com/) 
 Not just your pretty theme comes with other helpful features like 
-- Gruvbox colors --> changed the colors to be easier on eyes and less harsh 
-- Hover effects --> changes the color of font when you hover over it for better reading
-- Hide Bard Location --> helpful for screenshots and privacy 
-- removed the Bard experiment logo --> also changed the color of top bar to be less harsh to better suit the theme 
-- Better colors in code blocks --> Added gruvbox colors to code blocks which will change based on the language you are using but also stays consistent i.e colors in all languages are shown in light red color and so- on 
-- Better colors in table view --> added better colors for the table view to make it easier to read 
+- **Gruvbox colors** --> changed the colors to be easier on eyes and less harsh 
+-  **Hover effects** --> changes the color of font when you hover over it for better reading
+- **Hide Bard Location** --> helpful for screenshots and privacy 
+-  **Removed the Bard experiment logo** --> also changed the color of top bar to be less harsh to better suit the theme 
+-  **Better colors in code blocks** --> Added gruvbox colors to code blocks which will change based on the language you are using but also stays consistent 
+- **Better colors in table view** --> added better colors for the table view to make it easier to read 
 
 
 
@@ -23,13 +23,19 @@ Not just your pretty theme comes with other helpful features like
 
 
 > _Note:_ Make sure you enable dark  theme before using this style other wise some colors might appear broken
-> go to settings on bard website --> Click on `Use Dark Theme icon`
+> go to `Settings` on bard website --> Click on `Use Dark Theme icon`
 
-## Known Issues <a name="known-issues"></a>
+## Known Issues <a name="Howto-edit"></a>
+if you want to make any edits 
+click on the edit icon 
 
-- Text duplication on some websites when you highlight the text. Known websites where this issue occurs include:
-  - GitHub
-  - Google Collab
+![image](https://github.com/bilalazh/Google-Bard-Gruvbox-Dark/assets/139261053/26af6c79-2b08-47de-a57e-6f399457763a)
+ and you should be able to  make the changes in some colors as desired 
+
+ > Note: code is commented with some hints to make sure edits are possible
+>
+>if you break something you can reinstall the style do not remove `!important`
+> 
 
 ## Installation Instructions <a name="installation-instructions"></a>
 
