@@ -1,4 +1,4 @@
-            /* ==UserStyle==
+               /* ==UserStyle==
 @name         Google Bard Gruvbox Dark
 @namespace    USO Archive
 @version      1.0.0
@@ -102,35 +102,41 @@ div.prompt-example{
   
     
     
-    /*BARD LOCATION HIDDEN TAGS */
-    /*Hides actual location*/
-    .location-footer-name[_ngcontent-ng-c1990841866] {
-    visibility:hidden;
-        
+/* BARD LOCATION HIDDEN TAGS */
+/* Hides actual location */
+.location-footer-name {
+    visibility: hidden !important;
 }
-    /*Bard location From your IP address */
-    .footer-text-style[_ngcontent-ng-c1990841866], .location-buttons-dot[_ngcontent-ng-c1990841866], .location-footer-atl-text[_ngcontent-ng-c1990841866], .location-footer-name[_ngcontent-ng-c1990841866], .update-location-text[_ngcontent-ng-c1990841866] {
-    font-family: Google Sans,Helvetica Neue,sans-serif;
+
+/* Bard location From your IP address */
+.footer-text-style,
+.location-buttons-dot,
+.location-footer-atl-text,
+.location-footer-name,
+.update-location-text {
+    font-family: Google Sans, Helvetica Neue, sans-serif;
     font-size: .6875rem;
     line-height: 1rem;
     font-weight: 500;
     letter-spacing: .00625rem;
-        visibility : hidden ; !important
+    visibility: hidden !important;
 }
-      /*Inspect location property more specific  */
-    mat-icon.mat-icon.notranslate.filled.location-icon{
-       visibility : hidden ; !important
-    }
-    
-    /*Inspect location property less specific */
-    .location-icon[_ngcontent-ng-c1990841866]{
-        visibility : hidden ; !important
-    }
-    
-    /*Hide Entire botton div section*/
-    location-footer.ng-star-inserted{
-        visibility :hidden !important
-    }
+
+/* Inspect location property more specific */
+mat-icon.mat-icon.notranslate.filled.location-icon {
+    visibility: hidden !important;
+}
+
+/* Inspect location property less specific */
+.location-icon {
+
+    visibility: hidden !important;
+}
+
+/* Hide Entire botton div section */
+location-footer.ng-star-inserted {
+    visibility: hidden !important;
+}
 
     
     
@@ -147,7 +153,7 @@ div.prompt-example{
     }
     /*Bard experiment hidden*/
 .gb_Jc .gb_ad .gb_Hc:not(.gb_Hd) {
-    opacity: 0; !important
+    opacity: 0 !important ; 
 }
    
     
@@ -195,11 +201,7 @@ header.gb_Ka {
     color: #ffff !important;
 }
 
-    /**/
-    .markdown[_ngcontent-ng-c1188172251] ol li:hover, .markdown[_ngcontent-ng-c1188172251] ul li:hover {
-    /*color: #ffff !important;*/
-}
-
+    
     /*JUST HERE FOR REDUNACNY TO CHECK LATER WHY THE HELL COLROS WERE BROKEN BEFORR*/
     /*Hover on the list items in the repsonse they will change the colors , this will make focus on part of text better*/
     .markdown[_ngcontent-ng-c2853002834] ol li:hover, 
