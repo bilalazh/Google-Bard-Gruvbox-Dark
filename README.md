@@ -2,9 +2,10 @@
 
 ## Table of Contents
 1. [Description](#description)
-2. [Known Issues](#Howto-edit)
+ 2. [Prerequisites](#Pre)
 3. [Installation Instructions](#installation-instructions)
 4. [Screenshot](#screenshot)
+5.  [How to edit colors](#Howto-edit)
 
 ## Description <a name="description"></a>
 
@@ -22,10 +23,41 @@ Not just your pretty theme comes with other helpful features like
 
 
 
+
+
+## Prerequisites <a name="Pre"></a>
+#### Make sure dark mode is enabled
 > _Note:_ Make sure you enable dark  theme before using this style other wise some colors might appear broken
 > go to `Settings` on bard website --> Click on `Use Dark Theme icon`
 
-## Known Issues <a name="Howto-edit"></a>
+----------------------------------------------------------------------
+## _Important:_
+>  Make sure you have Stylus Extension installed. If you don't have it installed already, [CLICK HERE](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) to install it from Chrome Webstore. You can pin it to see the active styles on any website at any time.
+
+
+
+## Installation Instructions <a name="installation-instructions"></a>
+
+Two right next to the icon shows that there are two styles active for the specific website right now.
+![image](https://github.com/bilalazh/Google-Chivo-Font-On-every-website-/assets/139261053/a0c78478-203e-48fe-a1e2-98ff0aa8fff0)
+
+To install the style, go to this [LINK HERE](https://userstyles.world/style/12183/google-bard-gruvbox-dark-theme-enable-dark-mode)) and follow the instructions to install this style. 
+
+
+
+Click on the `install style` to confirm your installation.
+
+Enjoy using the style!
+
+## Screenshot <a name="screenshot"></a>
+
+
+
+
+
+
+
+## How to edit colors <a name="Howto-edit"></a>
 if you want to make any edits 
 click on the edit icon 
 
@@ -34,25 +66,6 @@ click on the edit icon
 
  > Note: code is commented with some hints to make sure edits are possible
 >
->if you break something you can reinstall the style do not remove `!important`
-> 
-
-## Installation Instructions <a name="installation-instructions"></a>
-
-> _Important:_ Make sure you have Stylus Extension installed. If you don't have it installed already, [CLICK HERE](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) to install it from Chrome Webstore. You can pin it to see the active styles on any website at any time.
-
-Two right next to the icon shows that there are two styles active for the specific website right now.
-
-![image](https://github.com/bilalazh/Google-Chivo-Font-On-every-website-/assets/139261053/a0c78478-203e-48fe-a1e2-98ff0aa8fff0)
-
-To install the style, go to this [LINK HERE](https://userstyles.world/style/12169/google-chivo-font-everywhere) and follow the instructions to install this style. A window will pop open asking for confirmation. It should look like this:
-
-![image](https://github.com/bilalazh/Google-Chivo-Font-On-every-website-/assets/139261053/5ff53335-8fa3-4a72-b929-83b220c57929)
-
-Click on the `install style` to confirm your installation. Enjoy using the style!
-
-## Screenshot <a name="screenshot"></a>
-
-This is how the font looks like on [Wikipedia](https://en.wikipedia.org/wiki/Main_Page?useskin=vector)
-
-![chivo font userstyle screenshots](https://github.com/bilalazh/Google-Chivo-Font-On-every-website-/assets/139261053/4ffdbad9-af6f-4249-b658-16731fa63737)
+>if you break something you can reinstall the style
+> do not remove `!important` at the end of each line
+> if you not sure about editing raise an issue [HERE](https://github.com/bilalazh/Google-Bard-Gruvbox-Dark/issues) i will make sure to you out :)
