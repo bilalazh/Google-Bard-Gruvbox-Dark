@@ -1,5 +1,5 @@
-                   /* ==UserStyle==
-@name         Google Bard Gruvbox Dark
+                        /* ==UserStyle==
+@name         Google Bard Gruvbox Light
 @namespace    github/bilalazh
 @version      1.0.0
 @description  "A Dark Theme for Google Bard \"bard.google.com\""
@@ -17,26 +17,26 @@
     /*HELLO AGAIN H! HEADING*/
     /* Recommended to use h1 selector */
   h1 {
-    color: #d5c4a1 !important;
+    color: #3c3836 !important;
 }
 
     /*H2 color change */
     /*Tell me What's on your mind  */
 h2 {
-    color: #ebdbb2 !important;
+    color: #282828 !important;
 }
 
     /*Prompts Containter backgound color*/
 div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
-    background-color: #3c3836 !important;
+    background-color: #689d6a !important;
 }
 
     
   
  /*Prompt Suggestion Color*/   
     :root .dark-theme .gmat-mdc-chip.mat-mdc-chip .mdc-evolution-chip__text-label{
-        color:#fabd2f;
+        color:#fb4934;
     }
     
 /*Selected all three UNDDERSTAND < CREATE < EXPLORE< */
@@ -53,7 +53,7 @@ div.prompt-example{
     
  /*sugested prompts property color*/
     .mat-mdc-chip-action-label {
-    color: #fabd2f !important;
+    color: #43403c !important;
 }
 
         /*SUGGESTED PROMPTS BUTTON*/
@@ -61,7 +61,7 @@ div.prompt-example{
 /*Suggested Prompts Button color */
     /*Added custom roundess to the button as well*/
 .mdc-evolution-chip__action {
-    background-color: rgb(35, 35, 35) !important;
+    background-color: #fbf1c7 !important;
     border-radius: 25px !important;
 }
 
@@ -73,7 +73,7 @@ div.prompt-example{
     /*Baclground color of the chat container*/
     /*Breaks often */
    .chat-container {
-    background-color: rgb(35, 35, 35) !important;
+    background-color: #f2e5bc !important;
 }
 
     
