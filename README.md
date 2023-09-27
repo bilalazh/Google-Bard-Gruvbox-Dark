@@ -1,4 +1,4 @@
-# Google Bard Gruvbox Light Theme
+# Google Bard Gruvbox Dark Theme
 
 ## Table of Contents
 1. [Description](#description)
