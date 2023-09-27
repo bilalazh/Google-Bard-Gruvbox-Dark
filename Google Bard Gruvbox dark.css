@@ -1,7 +1,7 @@
-                        /* ==UserStyle==
-@name         Google Bard Gruvbox Light
+                      /* ==UserStyle==
+@name         Google Bard Gruvbox Dark
 @namespace    github/bilalazh
-@version      1.0.0
+@version      1.0.1
 @description  "A Dark Theme for Google Bard \"bard.google.com\""
 @author       heybilalazhar@gmail.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
@@ -17,26 +17,26 @@
     /*HELLO AGAIN H! HEADING*/
     /* Recommended to use h1 selector */
   h1 {
-    color: #3c3836 !important;
+    color: #d5c4a1 !important;
 }
 
     /*H2 color change */
     /*Tell me What's on your mind  */
 h2 {
-    color: #282828 !important;
+    color: #ebdbb2 !important;
 }
 
     /*Prompts Containter backgound color*/
 div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
-    background-color: #689d6a !important;
+    background-color: #3c3836 !important;
 }
 
     
   
  /*Prompt Suggestion Color*/   
     :root .dark-theme .gmat-mdc-chip.mat-mdc-chip .mdc-evolution-chip__text-label{
-        color:#fb4934;
+        color:#fabd2f;
     }
     
 /*Selected all three UNDDERSTAND < CREATE < EXPLORE< */
@@ -53,7 +53,7 @@ div.prompt-example{
     
  /*sugested prompts property color*/
     .mat-mdc-chip-action-label {
-    color: #43403c !important;
+    color: #fabd2f !important;
 }
 
         /*SUGGESTED PROMPTS BUTTON*/
@@ -61,7 +61,7 @@ div.prompt-example{
 /*Suggested Prompts Button color */
     /*Added custom roundess to the button as well*/
 .mdc-evolution-chip__action {
-    background-color: #fbf1c7 !important;
+    background-color: rgb(35, 35, 35) !important;
     border-radius: 25px !important;
 }
 
@@ -73,7 +73,7 @@ div.prompt-example{
     /*Baclground color of the chat container*/
     /*Breaks often */
    .chat-container {
-    background-color: #f2e5bc !important;
+    background-color: rgb(35, 35, 35) !important;
 }
 
     
@@ -152,28 +152,31 @@ location-footer.ng-star-inserted {
         opacity:0.5 ;
     }
     /*Bard experiment hidden*/
-.gb_Jc .gb_ad .gb_Hc:not(.gb_Hd) {
+.gb_Kc {
+    visibility : hidden !important; 
     opacity: 0 !important ; 
 }
    
     
     /* Change the background color of the header */
 header.gb_Ka {
-  background-color: #333 !important; /* Green background */
+  background-color: #666363 !important; /* Green background */
 }
 
-/* Change the font and z-index of the header */
-.gb_bb:not(.gb_dd) {
-  font: 16px/30px 'Arial', sans-serif !important;
-  z-index: 999 !important;
-}
 
 /* Style for the fixed position header */
-.gb_md {
+.gb_od {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #333; /* Dark background */
+  background-color: rgb(35, 35, 35); /* Dark background */
+}
+
+.gb_od:hover {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #665c54; /* Dark background */
 }
 
   
@@ -308,9 +311,6 @@ div.markdown>p:hover,
 }
     
     /*Trying lines being highlighted */
-    
-    
-    
     
 
 
