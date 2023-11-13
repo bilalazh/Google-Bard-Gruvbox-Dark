@@ -118,3 +118,7 @@ click on the edit icon
 ## Update log : 
 
 > Monday, November 13, 2023 : Prompt example box color changed   
+
+
+#### TODOs : 
+[    ]  Fix extension broken styles 
