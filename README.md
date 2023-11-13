@@ -122,3 +122,4 @@ click on the edit icon
 
 #### TODOs : 
 [    ]  Fix extension broken styles 
+[    ]  Add more theme and color ways options
