@@ -111,3 +111,10 @@ click on the edit icon
 >if you break something you can reinstall the style
 > do not remove `!important` at the end of each line
 > if you not sure about editing raise an issue [HERE](https://github.com/bilalazh/Google-Bard-Gruvbox-Dark/issues) i will make sure to you out :)
+
+
+
+
+## Update log : 
+
+> Monday, November 13, 2023 : Prompt example box color changed   
