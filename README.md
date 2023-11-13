@@ -123,3 +123,4 @@ click on the edit icon
 #### TODOs : 
 [    ]  Fix extension broken styles 
 [    ]  Add more theme and color ways options
+[    ] Auto update is not working -> Had to do it manually using source file on the userstyles file
