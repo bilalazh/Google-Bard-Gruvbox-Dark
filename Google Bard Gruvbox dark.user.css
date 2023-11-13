@@ -1,8 +1,7 @@
 /* ==UserStyle==
 @name         Google Bard Gruvbox Dark
 @namespace    github/bilalazh
-@version      1.0.2
-@updateURL   https://raw.github.com/bilalazh/Google-Bard-Gruvbox-Dark/blob/main/Google%20Bard%20Gruvbox%20dark.user.css
+@version      1.0.3
 @description  "A Dark Theme for Google Bard \"bard.google.com\""
 @author       heybilalazhar@gmail.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
@@ -30,7 +29,8 @@ h2 {
     /*Prompts Containter backgound color*/
 div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
-    background-color: #3c3836 !important;
+    /*Quick hadk for making the color work fine*/
+    background-color: #cabd87 !important;
 }
 
     
@@ -40,6 +40,12 @@ div.prompt-example{
         color:#fabd2f;
     }
     
+
+
+
+    
+    
+    
 /*Selected all three UNDDERSTAND < CREATE < EXPLORE< */
 .prompt-example h3.gradient.gradient-1,
 .prompt-example h3.gradient.gradient-2 ,
@@ -47,11 +53,11 @@ div.prompt-example{
     background: none !important;
     -webkit-background-clip: initial !important;
     background-clip: initial !important;
-    color: #fbf1c7 !important;
+    color: #cabd87 !important;
     text-fill-color: initial !important;
 }
 
-    
+
  /*sugested prompts property color*/
     .mat-mdc-chip-action-label {
     color: #fabd2f !important;
@@ -524,5 +530,4 @@ code,.faq-button-ogb{
     
     
 }
-
 
