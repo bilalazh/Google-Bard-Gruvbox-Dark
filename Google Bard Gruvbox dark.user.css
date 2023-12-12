@@ -1,17 +1,144 @@
 /* ==UserStyle==
 @name         Google Bard Gruvbox Dark
 @namespace    github/bilalazh
+@version      1.0.4
+@description  "A Dark Theme for Google Bard \"bard.google.com\""
+@author       heybilalazhar@gmail.com
+@license      NO-REDISTRIBUTION==/UserStyle== */
+
+/* ==UserStyle==
+@name         Google Bard Gruvbox Dark
+@namespace    github/bilalazh
 @version      1.0.3
 @description  "A Dark Theme for Google Bard \"bard.google.com\""
 @author       heybilalazhar@gmail.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
 
 @-moz-document domain(bard.google.com) {
-:root{
-  --v-ani-mode: rbw2;
-  --v-ani-time: 3.5s;
-  --ani-rbw2-col: #2cedb3;
+
+    :root
+
+{
+    /* 0 is for darkest 
+    1 is for hard 
+    higher values for hard  */
+
+
+    /* 2.1 Dark theme color variables */
+    --bg0-dh:       #1d2021;
+    --bg1-dark:       #3c3836;
+    --bg-dark:        #282828;
+    --bg2-dark:       #504945;
+    --bg3-dark:       #665c54;
+    --bg4-dark:       #7c6f64;
+    --bg5-dark:       #928374;
+    --bg_visual:      #503946;
+    --bg_red:         #cc241d;
+    --bg_green:       #98971a;
+    --bg_blue:        #458588;
+    --bg_yellow:      #d79921;
+    --shadow:         #16181a;
+    --shadow-var1:         #17191b;
+    --shadow-cur:         #1a1b1d;
+
+    --fg-dark:        #ebdbb2;
+    --grey0-dark:     #7f897d;
+    --grey1-dark:     #859289;
+    --grey2-dark:     #9aa79d;
+
+    --faded-red:     #fb4934;
+    --faded-orange:  #fe8019;
+    --faded-yellow:  #fabd2f;
+    --faded-green:   #b8bb26;
+    --faded-aqua:    #8ec07c;
+    --faded-blue:    #83a598;
+    --faded-purple:  #d3869b;
+
+    --dim-red:       #cc241d;
+    --dim-orange:    #d65d0e;
+    --dim-yellow:    #d79921;
+    --dim-green:     #98971a;
+    --dim-aqua:      #689d6a;
+    --dim-blue:      #458588;
+    --dim-purple:    #b16286;
+
+
+    /* 2.2 Light theme color variables */
+    --bg0-light:     #f0edd8;
+    --bg1-light:     #f6f1dd;
+    --bg-light:      #fdf6e3;
+    --bg2-light:     #f3efda;
+    --bg3-light:     #edead5;
+    --bg4-light:     #e4e1cd;
+    --bg5-light:     #dfdbc8;
+    --grey0-light:   #a4ad9e;
+    --grey1-light:   #939f91;
+    --grey2-light:   #879686;
+    --shadow-light:  #3c474d20;
+
+
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+
+    
+
+    
+
+
+
+    --bg_visual_light:      #eaedc8;
+    --bg_red_light:         #fbe3da;
+    --bg_green_light:       #f0f1d2;
+    --bg_blue_light:        #e9f0e9;
+    --bg_yellow_light:      #faedcd;
+
+    --fg-light:       #5c6a72;
+
+    --light-red:     #f85552;
+    --light-orange:  #f57d26;
+    --light-yellow:  #bf983d;
+    --light-green:   #899c40;
+    --light-aqua:    #569d79;
+    --light-blue:    #5a93a2;
+    --light-purple:  #b87b9d;
+
+    --light-dim-red:    #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green:  #a4bb4a;
+    --light-dim-aqua:   #6ec398;
+    --light-dim-blue:   #6cb3c6;
+    --light-dim-purple: #e092be;
+
+
+
+ --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
+  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
+  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
+  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
+  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
+  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
+  --dark-orange: #af3a03;
+
+
+/* light colors */
+  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
+  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
+  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
+  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
+  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
+  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
+  --interface-light4: #a89988; /* light4: #a89988 */
+
+
+   
 }
+    
+    
     
     /*FRONT PAGE CHANGES GO HERE */
     /*HELLO AGAIN H! HEADING*/
@@ -39,13 +166,14 @@ div.prompt-example{
     :root .dark-theme .gmat-mdc-chip.mat-mdc-chip .mdc-evolution-chip__text-label{
         color:#fabd2f;
     }
-    
+
+/*  Response colrainer backgournd color    */
+
+    .response-container.no-background{
+        background-color:#282828 !important ; 
+    }
 
 
-
-    
-    
-    
 /*Selected all three UNDDERSTAND < CREATE < EXPLORE< */
 .prompt-example h3.gradient.gradient-1,
 .prompt-example h3.gradient.gradient-2 ,
@@ -53,14 +181,16 @@ div.prompt-example{
     background: none !important;
     -webkit-background-clip: initial !important;
     background-clip: initial !important;
-    color: #cabd87 !important;
-    text-fill-color: initial !important;
+    color: #111010 !important;
+  
 }
+ 
 
+    
 
  /*sugested prompts property color*/
     .mat-mdc-chip-action-label {
-    color: #fabd2f !important;
+    color: #babd1c !important;
 }
 
         /*SUGGESTED PROMPTS BUTTON*/
@@ -99,7 +229,7 @@ div.prompt-example{
 /*The selextion color of the convo */
     /*Old ugly green color will be replaced here */
 .conversation.selected {
-    background-color: #3c3836 !important;
+    background-color: #9d0006 !important;
 }
 
     
@@ -153,10 +283,28 @@ location-footer.ng-star-inserted {
     background-color: #232323 !important;
 }
     
-/*  Hover effect on header    */
+/*  Hover effect on header  (Icons only ) */
       .gb_Ic :hover {
-    color: #fb4934 !important;
+    color: var(--faded-yellow) !important;
 }
+    
+    
+    
+    
+    .gb_Ja .gb_kd.gb_pd.gb_qd {
+    min-width: 0;
+    background-color: #232323 !important;
+}
+    .gb_Ja .gb_kd.gb_pd.gb_qd:hover {
+    min-width: 0;
+    background-color: #427b58 !important;
+}
+       
+    
+    
+    
+    
+    
     
     
     
@@ -298,6 +446,9 @@ div.markdown>p:hover,
     /*Chat container*/
     
 
+  
+    
+    
    .chat-container.at-least-mobile-large[_ngcontent-ng-c3497705168]{
         color:#b57614; 
     }
@@ -312,12 +463,68 @@ div.markdown>p:hover,
     display: none;
 }
     
+
+    .response-container {
+    background-color: #16181a !important;
+    border-radius: 16px;
+    padding: 12px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+    
+
+    .chat-history [_ngcontent-ng-c1119024806]{
+        background-color : #282828 !important ; 
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 16px;
+}
+
+    
+    .bottom-container[_ngcontent-ng-c1119024806] {
+    margin-top: auto;
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+    
+    
     /*Trying lines being highlighted */
     
 
 
 .gb_Bd.gb_Rd.gb_Id.gb_Hd, mat-sidenav, .mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-interactive.mdc-list-item--with-leading-icon.mat-mdc-list-item-single-line.mdc-list-item--with-one-line, div.card,.mat-mdc-text-field-wrapper.mdc-text-field.ng-tns-c491895417-1.mdc-text-field--outlined.mdc-text-field--no-label,mat-form-field, .mat-expansion-panel.model-response-previews.ng-star-inserted, .multi-response-container, .response-container.ng-star-inserted, .mat-expansion-panel.model-response-previews.ng-tns-c3728856580-9.ng-star-inserted, .mat-expansion-panel.ng-star-inserted.mat-expanded.mat-expansion-panel-spacing, mat-expansion-panel-header, .mat-expansion-panel-body,.waitlist-text.top-text,.waitlist-text.bottom-text,chat-window.ng-star-inserted,.main,flex-window-container.ng-star-inserted,faq-window.ng-star-inserted>flex-window-container,.footer.ng-star-inserted,.mat-drawer-content.mat-sidenav-content{
-  background-color: rgb(35, 35, 35) !important;
+  background-color: #16181a !important;
 }
 /* main text in the editor */
     
