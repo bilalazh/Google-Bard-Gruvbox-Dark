@@ -146,9 +146,17 @@ location-footer.ng-star-inserted {
 }
 
     
+
     
+/*    New Background header*/
+    .gb_Ic {
+    background-color: #232323 !important;
+}
     
-    
+/*  Hover effect on header    */
+      .gb_Ic :hover {
+    color: #fb4934 !important;
+}
     
     
     
@@ -158,33 +166,20 @@ location-footer.ng-star-inserted {
     .gb_Ka .gb_ld.gb_qd.gb_rd {
         opacity:0.5 ;
     }
-    /*Bard experiment hidden*/
-.gb_Kc {
-    visibility : hidden !important; 
-    opacity: 0 !important ; 
-}
-   
     
-    /* Change the background color of the header */
-header.gb_Ka {
-  background-color: #666363 !important; /* Green background */
+    .gb_Ja .gb_kd.gb_pd.gb_qd {
+    min-width: 0;
+        color:#fff !important; 
 }
 
-
-/* Style for the fixed position header */
-.gb_od {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: rgb(35, 35, 35); /* Dark background */
+   img.gb_Fc {
+    border: 0;
+    opacity:0 !important ; 
 }
+  
+    
 
-.gb_od:hover {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #665c54; /* Dark background */
-}
+    
 
   
    /*Front PAGE DONE*/
@@ -530,4 +525,5 @@ code,.faq-button-ogb{
     
     
 }
+
 
