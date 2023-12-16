@@ -1,20 +1,10 @@
 /* ==UserStyle==
 @name         Google Bard Gruvbox Dark
 @namespace    github/bilalazh
-@version      1.0.5
+@version      1.0.6
 @description  "A Dark Theme for Google Bard \"bard.google.com\""
 @author       heybilalazhar@gmail.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
-
-/* ==UserStyle==
-@name         Google Bard Gruvbox Dark
-@namespace    github/bilalazh
-@version      1.0.3
-@description  "A Dark Theme for Google Bard \"bard.google.com\""
-@author       heybilalazhar@gmail.com
-@license      NO-REDISTRIBUTION==/UserStyle== */
-
-
 
 @-moz-document domain(bard.google.com) {
 
@@ -155,11 +145,27 @@ h2 {
     color: #ebdbb2 !important;
 }
 
+  
+
+    
+    
+/*Selected all three UNDDERSTAND < CREATE < EXPLORE< */
+.prompt-example h3.gradient.gradient-1,
+.prompt-example h3.gradient.gradient-2 ,
+.prompt-example h3.gradient.gradient-3 {
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    color: #b1a471 !important;
+    text-fill-color: initial !important;
+}
+    
+    
     /*Prompts Containter backgound color*/
 div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
     /*Quick hadk for making the color work fine*/
-    background-color: #cabd87 !important;
+    background-color: #16181a !important;
 }
 
     
@@ -169,32 +175,15 @@ div.prompt-example{
         color:#fabd2f;
     }
 
-/*  Response colrainer backgournd color    */
-
-    .response-container.no-background{
-        background-color:#282828 !important ; 
-    }
-
-
-/*Selected all three UNDDERSTAND < CREATE < EXPLORE< */
-.prompt-example h3.gradient.gradient-1,
-.prompt-example h3.gradient.gradient-2 ,
-.prompt-example h3.gradient.gradient-3 {
-    background: none !important;
-    -webkit-background-clip: initial !important;
-    background-clip: initial !important;
-    color: #111010 !important;
-  
-}
- 
 
     
 
+
+
  /*sugested prompts property color*/
     .mat-mdc-chip-action-label {
-    color: #babd1c !important;
+    color: #d6bc8c !important;
 }
-
         /*SUGGESTED PROMPTS BUTTON*/
     
 /*Suggested Prompts Button color */
@@ -236,7 +225,7 @@ div.prompt-example{
 
     
     
-    
+ 
     
   
     
@@ -295,18 +284,117 @@ location-footer.ng-star-inserted {
     
     .gb_Ja .gb_kd.gb_pd.gb_qd {
     min-width: 0;
-    background-color: #232323 !important;
+    background-color: #1a1b1d !important;
 }
     .gb_Ja .gb_kd.gb_pd.gb_qd:hover {
     min-width: 0;
     background-color: #427b58 !important;
 }
        
+/*   Here is the circle    */
+    
+    .response-container[_ngcontent-ng-c3578801156] {
+    background-color: #1a1b1d !important;
+    border-radius: 16px;
+    padding: 12px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+    .model-response-text[_ngcontent-ng-c1293044103] {
+    background-color: #1a1b1d !important;
+}
+    
+    .chat-history[_ngcontent-ng-c1119024806]:after {
+    content: "";
+    background-color: #16181a !important;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    padding-top: 4px;
+    width: 100%;
+    z-index: 1;
+}
+    .chat-history[_ngcontent-ng-c1119024806] {
+    background-color: #16181a !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 16px;
+}
     
     
+    .chat-history[_ngcontent-ng-c1119024806] {
+        background-color:#16181a !important ; 
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 16px;
+}
     
-    
-    
+.chat-history [_ngcontent-ng-c1119024806] {
+    background-color: #282828 !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 16px;
+}
+
     
     
     
@@ -341,6 +429,23 @@ location-footer.ng-star-inserted {
       /*home PAGE DONE*/
       /*Home PAGE DONE*/
       /*home PAGE DONE*/
+    
+    
+/*  Here is teh udnerstand craete and explore bar     */
+/* Text fill color property changes the color of this  */
+
+ h3.gradient.gradient-1,
+h3.gradient.gradient-2,
+h3.gradient.gradient-3  {
+    background: -webkit-gradient(linear,left top,right top,from(#7f7dd1),color-stop(100%,#548dd9),to(#548dd9));
+    background: -webkit-linear-gradient(left,#7f7dd1,#548dd9 100%,#548dd9 0);
+    background: linear-gradient(90deg,#7f7dd1,#548dd9 100%,#548dd9 0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: var(--faded-green) !important ;
+}
+    
     
     
     
