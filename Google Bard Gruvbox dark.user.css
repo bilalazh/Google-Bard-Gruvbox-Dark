@@ -161,6 +161,23 @@ h2 {
 }
     
     
+    
+        
+/*The werid bar bottom of the understand create and explore tab which can be hard to ignore at times       */
+    
+    .chat-history[_ngcontent-ng-c1411964632]:after {
+    content: "";
+    background-color: rgb(35, 35, 35) !important;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    padding-top: 4px;
+    width: 100%;
+    z-index: 1;
+}
+    
+    
+    
     /*Prompts Containter backgound color*/
 div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
@@ -279,22 +296,19 @@ location-footer.ng-star-inserted {
     background-color: #232323 !important;
 }
     
-/*  Hover effect on header  (Icons only ) */
-      .gb_Ic :hover {
-    color: var(--faded-yellow) !important;
+
+    
+    
+    
+    
+    .gb_Ka .gb_ld.gb_qd.gb_rd {
+    opacity: 1 !important;
 }
     
     
+
+
     
-    
-    .gb_Ja .gb_kd.gb_pd.gb_qd {
-    min-width: 0;
-    background-color: #1a1b1d !important;
-}
-    .gb_Ja .gb_kd.gb_pd.gb_qd:hover {
-    min-width: 0;
-    background-color: #427b58 !important;
-}
        
 /*   Here is the circle    */
     
@@ -403,23 +417,19 @@ location-footer.ng-star-inserted {
     
     
     
-    
-    /*Top black bar*/
-    /*Top bard experiment hidden*/
-    .gb_Ka .gb_ld.gb_qd.gb_rd {
-        opacity:0.5 ;
-    }
-    
-    .gb_Ja .gb_kd.gb_pd.gb_qd {
-    min-width: 0;
-        color:#fff !important; 
-}
+
+/*Hides the bard experiment iamge well and fully       */
 
    img.gb_Fc {
     border: 0;
     opacity:0 !important ; 
 }
   
+    .gb_bb:not(.gb_dd) :hover{
+        background-color:#427b58 !important ; 
+    font: 13px/27px Roboto,Arial,sans-serif;
+    z-index: 986;
+}
     
 
     
@@ -530,10 +540,7 @@ div.markdown>p:hover,
     
     
     
-    
-    
-    
-    
+
     
     
     
@@ -638,8 +645,12 @@ div.markdown>p:hover,
 .gb_Bd.gb_Rd.gb_Id.gb_Hd, mat-sidenav, .mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-interactive.mdc-list-item--with-leading-icon.mat-mdc-list-item-single-line.mdc-list-item--with-one-line, div.card,.mat-mdc-text-field-wrapper.mdc-text-field.ng-tns-c491895417-1.mdc-text-field--outlined.mdc-text-field--no-label,mat-form-field, .mat-expansion-panel.model-response-previews.ng-star-inserted, .multi-response-container, .response-container.ng-star-inserted, .mat-expansion-panel.model-response-previews.ng-tns-c3728856580-9.ng-star-inserted, .mat-expansion-panel.ng-star-inserted.mat-expanded.mat-expansion-panel-spacing, mat-expansion-panel-header, .mat-expansion-panel-body,.waitlist-text.top-text,.waitlist-text.bottom-text,chat-window.ng-star-inserted,.main,flex-window-container.ng-star-inserted,faq-window.ng-star-inserted>flex-window-container,.footer.ng-star-inserted,.mat-drawer-content.mat-sidenav-content{
   background-color: #16181a !important;
 }
-/* main text in the editor */
+
     
+    
+    
+    /* main text in the editor */
+/*Text color styles */
     
 .chat-history.ng-star-inserted>div>user-query>div>div>h2,div.markdown>p, .mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-interactive.mdc-list-item--with-leading-icon.mat-mdc-list-item-single-line.mdc-list-item--with-one-line>span>span, .mat-icon.notranslate.mat-mdc-list-item-icon.google-material-icons.mat-icon-no-color.mdc-list-item__start,.mat-drawer-inner-container.ng-tns-c1668312745-0>mat-nav-list>button>span>span, .mat-drawer-inner-container.ng-tns-c1668312745-0>mat-nav-list>button>mat-icon, .response-container.ng-star-inserted>div>div>zero-state>div,.sentence-prefix, textarea,.mat-panel-title-wrapper,.mat-mdc-menu-content.mdc-list>div>button>mat-icon.mat-icon.notranslate.google-material-icons.mat-icon-no-color,.mat-mdc-menu-item.mat-mdc-focus-indicator.mdc-list-item.ng-star-inserted>mat-icon,.mat-mdc-tooltip-trigger.copy-button.mdc-icon-button.mat-mdc-icon-button.gmat-mdc-button-with-prefix.mat-unthemed.mat-mdc-button-base.gmat-mdc-button,.mat-icon.notranslate.mat-mdc-list-item-icon.google-symbols.mat-icon-no-color.mdc-list-item__start{
   color: #ebdbb2 !important;
@@ -797,12 +808,7 @@ code,.faq-button-ogb{
 
   
 
-    
-/* Change the background color when you hover over the element */
-.gb_ld.gb_fd.gb_rd.gb_qd.gb_Jc:hover {
-    
-  background-color: #d1bca8;  /* Replace with your desired color */
-}
+
     
     
  
@@ -844,5 +850,4 @@ code,.faq-button-ogb{
     
     
 }
-
 
