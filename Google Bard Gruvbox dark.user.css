@@ -267,6 +267,11 @@ location-footer.ng-star-inserted {
 }
 
     
+    
+    .gb_Jc .gb_ad .gb_Hc:not(.gb_Hd) {
+        
+    opacity: 0;
+}
 
     
 /*    New Background header*/
