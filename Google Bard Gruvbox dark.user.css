@@ -1206,6 +1206,7 @@ code,.faq-button-ogb{
 		/*Second page*/
 		/*alternative page*/
 		
+		/*main button on top*/
 		.buttons-container-link-button {
     font-size: 1rem;
     font-weight: 400;
@@ -1236,6 +1237,84 @@ code,.faq-button-ogb{
     padding-top: 8px;
     display: block;
 }
+		
+		
+		
+		
+		/*button tabs*/
+		.name {
+			color:#8ec07c !important;
+   
+}
+		/*handle of the page */
+		.handle {
+  
+    color:#b8bb26 !important;
+    margin-bottom: 4px;
+}
+		
+		/*description of the tabs*/
+		.collapsed-card-content  .description {
+  
+    color: #d5c4a1 !important;;
+    -webkit-line-clamp: 3;
+}
+		
+		
+		/*changed the color of green  for the prompt suggestions*/
+	.mat-mdc-button .mdc-button__label, .mat-mdc-unelevated-button .mdc-button__label, .mat-mdc-raised-button .mdc-button__label, .mat-mdc-outlined-button .mdc-button__label {
+    z-index: 1;
+    color: #b8bb26  !important;
+}	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		.privacy-disclosure-container {
+    background-color: #1d2021 !important;
+
+}
+		
+		.privacy-disclosure-container   .privacy-disclosure-content {
+    color: #b8bb26 !important;;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
