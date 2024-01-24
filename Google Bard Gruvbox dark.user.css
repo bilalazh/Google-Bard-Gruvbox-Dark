@@ -285,11 +285,28 @@ location-footer.ng-star-inserted {
 
     
 /*  Bard experiment >>opacity is zero     */
-    .gb_Jc .gb_ad .gb_Hc:not(.gb_Hd) {
-        
-    opacity: 0;
-}
 
+	img.gb_Kc {
+		opacity : 0 !important; 
+    border: 0;
+    vertical-align: middle;
+}
+	
+/* New color for top bar */
+/* Top green header made green to incldue gruvbox colors	 */
+	.gb_Na:not(.gb_Oa) .gb_pd {
+  
+		background-color: #5b570b !important ; 
+}
+	
+/* 	 hover for top bar*/
+	.gb_Na:not(.gb_Oa) .gb_pd:hover{
+		background-color: #79740e !important ;
+  
+}
+	
+
+	
     
 /*    New Background header*/
     .gb_Ic {
@@ -888,3 +905,5 @@ code,.faq-button-ogb{
     
     
 }
+
+
