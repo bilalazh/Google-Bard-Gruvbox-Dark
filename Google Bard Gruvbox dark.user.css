@@ -145,19 +145,28 @@ h2 {
     color: #ebdbb2 !important;
 }
 
-  
+  h3.gradient.gradient-1, h3.gradient.gradient-2, h3.gradient.gradient-3 {
 
     
+
+    color: white !important;
     
-/*Selected all three UNDDERSTAND < CREATE < EXPLORE< */
-.prompt-example h3.gradient.gradient-1,
-.prompt-example h3.gradient.gradient-2 ,
-.prompt-example h3.gradient.gradient-3 {
-    background: none !important;
-    -webkit-background-clip: initial !important;
-    background-clip: initial !important;
-    color: #b1a471 !important;
-    text-fill-color: initial !important;
+	}
+    
+
+/*  Here is teh udnerstand craete and explore bar     */
+/* Text fill color property changes the color of this  */
+
+ h3.gradient.gradient-1,
+h3.gradient.gradient-2,
+h3.gradient.gradient-3  {
+    background: -webkit-gradient(linear,left top,right top,from(#7f7dd1),color-stop(100%,#548dd9),to(#548dd9));
+    background: -webkit-linear-gradient(left,#7f7dd1,#548dd9 100%,#548dd9 0);
+    background: linear-gradient(90deg,#7f7dd1,#548dd9 100%,#548dd9 0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: var(--dim-green)  !important ;
 }
     
     
@@ -185,12 +194,9 @@ div.prompt-example{
     background-color: #16181a !important;
 }
 
-    
-  
- /*Prompt Suggestion Color*/   
-    :root .dark-theme .gmat-mdc-chip.mat-mdc-chip .mdc-evolution-chip__text-label{
-        color:#fabd2f;
-    }
+	
+	
+
 
 
     
@@ -231,13 +237,13 @@ div.prompt-example{
     /*Old chats color*/
     /*Sidebar conversations color fixed as well */
     .conversation-title {
-    color: #fabd2f !important;
+    color: #ebdbb2 !important;
 }
 
 /*The selextion color of the convo */
     /*Old ugly green color will be replaced here */
 .conversation.selected {
-    background-color: #9d0006 !important;
+    background-color: #5b570b !important;
 }
 
     
@@ -321,7 +327,7 @@ location-footer.ng-star-inserted {
 }
     
     
-    
+    /*top bar hideen and also th ebard logo */
     .gb_Ka .gb_ld.gb_qd.gb_rd {
     opacity: 0 !important;
 }
@@ -467,21 +473,7 @@ location-footer.ng-star-inserted {
       /*home PAGE DONE*/
     
     
-/*  Here is teh udnerstand craete and explore bar     */
-/* Text fill color property changes the color of this  */
 
- h3.gradient.gradient-1,
-h3.gradient.gradient-2,
-h3.gradient.gradient-3  {
-    background: -webkit-gradient(linear,left top,right top,from(#7f7dd1),color-stop(100%,#548dd9),to(#548dd9));
-    background: -webkit-linear-gradient(left,#7f7dd1,#548dd9 100%,#548dd9 0);
-    background: linear-gradient(90deg,#7f7dd1,#548dd9 100%,#548dd9 0);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: var(--faded-green) !important ;
-}
-    
     
     
     
@@ -490,7 +482,7 @@ h3.gradient.gradient-3  {
     
 /*hover on text can  change it's color to helo you read a line better*/
 .markdown p[data-sourcepos]:hover {
-    color: #fabd2f !important;  /* Override other styles */
+    color: #b8bb26 !important;  /* Override other styles */
 }
 
     div.markdown.markdown-main-panel ol li:hover, div.markdown.markdown-main-panel ul li:hover {
@@ -949,12 +941,19 @@ code,.faq-button-ogb{
 		
 		
 		
-/*ALL button  		 */
+/*ALL buttons get this color now	 */
 		
 		button {
    
   
     color: #fb4934 !important;
+    padding: 2px 12px;
+}
+		/*hover for all buttons*/
+		button:hover {
+   
+  
+    color: #98971a !important;
     padding: 2px 12px;
 }
 		
@@ -1114,8 +1113,81 @@ code,.faq-button-ogb{
 		
 		
 		
+		/*sources for code container*/
+		.sources-container  .recitations-list-container {
+    border-radius: 16px;
+    background-color: #1a1b1d !important;;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+		
+		/*source text in the code source container*/
+		.sources-container   h4 {
+			
+    margin: 0;
+    color: #fe8019 !important;;
+}
 		
 		
+			/*no ressutls found */
+		span.ng-star-inserted{
+			color:#f57d26 !important;
+		}
+		
+		
+		
+		
+		
+		/*hover for all links*/
+		a:hover{
+			color:#fabd2f !important;
+			
+		}
+		
+		
+
+		
+		
+		
+		/*serarch srelated contrainer*/
+		/*factuality check*/
+		
+		.factuality-container {
+    background: #1d2021 !important;
+    border-radius: 4px 4px 16px 16px;
+}
+		
+
+		/*search realted topic iin facatiality bar */
+		h3.gmat-body-1{
+			color:#fe8019 !important;
+		}
+		
+		
+		/*search completed */
+		/*factuality check bar status*/
+	.status-text {
+
+    letter-spacing: normal;
+    color: #98971a !important;
+}
+		
+		
+		
+		/*side bar conversation*/
+		
+		.conversations-container  .conversation   mat-icon{
+			color:#98971a !important;
+			background-color: #16181a !important;
+    height: 16px;
+    width: 16px;
+    font-size: 16px;
+    margin: 0;
+    padding: 4px;
+}
+		
+		
+	
 		
 		
 		
