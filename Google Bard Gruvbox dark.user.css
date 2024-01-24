@@ -1183,9 +1183,59 @@ code,.faq-button-ogb{
 		
 		
 		
-
-	
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*Extension page*/
+		/*Second page*/
+		/*alternative page*/
+		
+		.buttons-container-link-button {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: Google Sans,Helvetica Neue,sans-serif;
+    letter-spacing: normal;
+    background: #cc241d !important;
+    color:#d5c4a1 !important;
+}
+		
+		
+		/*Header of the extension page at the top*/
+		
+.banner-container-headline {
+    color: #98971a !important;
+ 
+}
+	
+		/*text under the  header */
+		.banner-container-body-copy {
+    color: #d5c4a1 !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: Google Sans,Helvetica Neue,sans-serif;
+    letter-spacing: normal;
+    font-size: 18px;
+    padding-top: 8px;
+    display: block;
+}
 		
 		
 		
