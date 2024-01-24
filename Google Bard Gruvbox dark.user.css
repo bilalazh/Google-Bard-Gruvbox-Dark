@@ -764,11 +764,7 @@ code,.faq-button-ogb{
 
 
     
-    /*editor suggestions*/
-.mat-mdc-button .mdc-button__label, .mat-mdc-unelevated-button .mdc-button__label, .mat-mdc-raised-button .mdc-button__label, .mat-mdc-outlined-button .mdc-button__label {
-    z-index: 1;
-    color:#8ec07c !important;
-}   
+
         
         
 		
@@ -989,6 +985,140 @@ code,.faq-button-ogb{
 			color:#af3a03 !important;
 		}
 
+		
+		
+		
+
+		
+/**/
+
+		
+		div[data-testid="toolbar"] .toolbar-actions-container .stop-generating-button button {
+  border: 0;
+  border-radius: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 3px var(--bard-color-tooltip-box-shadow);
+  background: white !important;
+  padding: 10px 24px;
+}
+		
+		
+		
+		/*Button dim green colors */
+		
+		.mat-mdc-button .mdc-button__label, .mat-mdc-unelevated-button .mdc-button__label, .mat-mdc-raised-button .mdc-button__label, .mat-mdc-outlined-button .mdc-button__label {
+    z-index: 1;
+    color: var(--dim-green) !important;
+}
+		
+
+		/*Copy and FLag button and icon */
+		.mat-mdc-menu-item .mat-icon {
+			color:#98971a !important;
+    margin-right: 16px;
+}
+		
+		
+		
+		
+		
+		.response-container   .single-draft-response-container   .retry-button .mat-icon{
+    color: #b8bb26 !important;;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin: 5px 0 0 5px;
+}
+		
+		/*Regenerate reponse button */
+		.response-container  .single-draft-response-container  .retry-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #b8bb26 !important;
+}
+		
+		
+		
+		/*cite  vode */
+		.recitation-tooltip[_ngcontent-ng-c4046976188] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 25em;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    max-height: -webkit-min-content;
+    max-height: -moz-min-content;
+    max-height: min-content;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 6px 16px;
+    border-radius: 100px;
+    box-shadow: 0 2px 6px var(--bard-color-tooltip-box-shadow);
+    background-color: #1d2021 ;
+    color: var(--bard-color-on-surface);
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    font-family: Google Sans,Helvetica Neue,sans-serif;
+    letter-spacing: normal;
+}
+		
+		/*citation button */
+		/*changed button color to green */
+		/*changed button color and increased font */
+		.recitation-button {
+    border-radius: 18px;
+    border: none;
+    margin: 2px;
+    width: 18px;
+    height: 18px;
+    background: #5b570b !important;
+    color: #d5c4a1 !important;
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1rem;
+    font-family: Google Sans,Helvetica Neue,sans-serif;
+    letter-spacing: .1px;
+    font-size: 14px;
+}
+		
+		
+		
+		
+		
+		
+		
+		
 
 		:root .dark-theme {
     --mat-ripple-color: rgba(255,255,255,0.1);
@@ -1004,7 +1134,7 @@ code,.faq-button-ogb{
     --mat-full-pseudo-checkbox-disabled-selected-checkmark-color: #303030;
     --mat-full-pseudo-checkbox-disabled-unselected-icon-color: #686868;
     --mat-full-pseudo-checkbox-disabled-selected-icon-color: #686868;
-    --mat-minimal-pseudo-checkbox-selected-checkmark-color: #4285f4;
+    --mat-minimal-pseudo-checkbox-selected-checkmark-color: #98971a;
     --mat-minimal-pseudo-checkbox-disabled-selected-checkmark-color: #686868;
     --mat-app-background-color: #98971a!important;
     --mat-app-text-color: white;
@@ -1453,14 +1583,15 @@ code,.faq-button-ogb{
     --mdc-linear-progress-track-shape: 0;
     --mdc-circular-progress-active-indicator-width: 4px;
     --mdc-circular-progress-size: 48px;
-    --mdc-circular-progress-active-indicator-color: #4285f4;
+			
+    --mdc-circular-progress-active-indicator-color: #98971a;
     --mat-select-panel-background-color: #424242;
     --mat-select-enabled-trigger-text-color: rgba(255,255,255,0.87);
     --mat-select-disabled-trigger-text-color: rgba(255,255,255,0.38);
     --mat-select-placeholder-text-color: rgba(255,255,255,0.6);
     --mat-select-enabled-arrow-color: rgba(255,255,255,0.54);
     --mat-select-disabled-arrow-color: rgba(255,255,255,0.38);
-    --mat-select-focused-arrow-color: rgba(66,133,244,0.87);
+    --mat-select-focused-arrow-color: #ebe902;
     --mat-select-invalid-arrow-color: rgba(234,67,53,0.87);
     --mat-select-trigger-text-font: "Google Sans","Helvetica Neue",sans-serif;
     --mat-select-trigger-text-line-height: 1.5rem;
@@ -1503,8 +1634,12 @@ code,.faq-button-ogb{
     --mdc-secondary-navigation-tab-container-height: 48px;
     --mat-tab-header-divider-color: transparent;
     --mat-tab-header-divider-height: 0;
-    --mat-focus-indicator-border-color: #4285f4;
-    --mat-mdc-focus-indicator-border-color: #4285f4;
+			
+			
+    --mat-focus-indicator-border-color: #98971a;
+    --mat-mdc-focus-indicator-border-color: #98971a;
+			
+			
     --mat-focus-indicator-border-color: var(--bard-color-strong-focus-indicator);
     --mat-mdc-focus-indicator-border-color: var(--bard-color-strong-focus-indicator);
 }
