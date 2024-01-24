@@ -938,14 +938,14 @@ code,.faq-button-ogb{
 		button {
    
   
-    color: #fb4934 !important;
+    color: #98971a !important;
     padding: 2px 12px;
 }
 		/*hover for all buttons*/
 		button:hover {
    
   
-    color: #98971a !important;
+    color: #fb4934 !important;
     padding: 2px 12px;
 }
 		
@@ -1299,9 +1299,15 @@ code,.faq-button-ogb{
 		
 		
 		
+		/*Menu content*/
 		
-		
-		
+		.mat-mdc-menu-content {
+			color:black !important;
+			background-color:#1d2021 !important;
+    margin: 0;
+    padding: 8px 0;
+    list-style-type: none;
+}
 		
 		
 		
