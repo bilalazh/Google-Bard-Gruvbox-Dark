@@ -1229,13 +1229,6 @@ code,.faq-button-ogb{
 		.banner-container-body-copy {
     color: #d5c4a1 !important;
     font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    font-family: Google Sans,Helvetica Neue,sans-serif;
-    letter-spacing: normal;
-    font-size: 18px;
-    padding-top: 8px;
-    display: block;
 }
 		
 		
@@ -1275,7 +1268,7 @@ code,.faq-button-ogb{
 		
 		
 		
-		
+		/*privacy disclosure*/
 		
 		
 		.privacy-disclosure-container {
@@ -1308,6 +1301,73 @@ code,.faq-button-ogb{
     padding: 8px 0;
     list-style-type: none;
 }
+		
+		/*down arrow near the  view other drafts*/
+		.model-response-previews    .mat-expansion-indicator:after {
+    color: #b8bb26 !important;;
+    padding: 4px;
+    margin-top: -6px;
+}
+		
+		
+		/*text n inout color */
+		/*changed the background color*/
+		.text-input-field {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+ 
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #16181a !important;;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid var(--bard-color-form-field-outline);
+    box-shadow: inset 0 0 0 1px transparent;
+    -webkit-transition: border .14s,box-shadow .14s;
+    transition: border .14s,box-shadow .14s;
+}
+		
+		
+.text-input-field {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #16181a !important;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid #5b570b ;
+    box-shadow: inset 0 0 0 1px transparent;
+    -webkit-transition: border .14s,box-shadow .14s;
+    transition: border .14s,box-shadow .14s;
+}
+		
+		
+		/*text you enter inside the prompt*/
+		/*user prompt text*/
+		
+		.ql-editor p, .ql-editor ol, .ql-editor ul, .ql-editor pre, .ql-editor blockquote, .ql-editor h1, .ql-editor h2, .ql-editor h3, .ql-editor h4, .ql-editor h5, .ql-editor h6 {
+    color: #ebdbb2;
+}
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
