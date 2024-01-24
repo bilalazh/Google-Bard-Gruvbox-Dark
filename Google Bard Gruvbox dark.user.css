@@ -486,19 +486,11 @@ location-footer.ng-star-inserted {
 }
 
     div.markdown.markdown-main-panel ol li:hover, div.markdown.markdown-main-panel ul li:hover {
-    color: #ffff !important;
+    color: #fabd2f !important;
 }
 
     
-    /*JUST HERE FOR REDUNACNY TO CHECK LATER WHY THE HELL COLROS WERE BROKEN BEFORR*/
-    /*Hover on the list items in the repsonse they will change the colors , this will make focus on part of text better*/
-    .markdown[_ngcontent-ng-c2853002834] ol li:hover, 
-.markdown[_ngcontent-ng-c2853002834] ul li:hover {
-    
-    /* Change to your desired margin */
-    color: #fabd2f !important
-    
-}
+
 /* Hover Effect */
 .chat-history.ng-star-inserted>div>user-query>div>div>h2:hover,
 div.markdown>p:hover,
@@ -668,9 +660,9 @@ div.markdown>p:hover,
     
     
     /* Bulleted text colors */
-    .markdown[_ngcontent-ng-c1922955155] ol li, .markdown[_ngcontent-ng-c1922955155] ul li {
+    .markdown ol li, .markdown ul li {
     margin-bottom: 10px;
-         color: #d6bc8c !important ;
+         color: #fdf6e3 !important ;
 }
 
 /* Recent , caution and bard may display inaccurate information buttons*/
