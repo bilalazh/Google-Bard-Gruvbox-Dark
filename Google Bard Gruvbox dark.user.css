@@ -779,9 +779,9 @@ code,.faq-button-ogb{
 /*New chat  button new color (looks better )          */
 .gmat-subtitle-2 {
 
-    color:#babd1c !important ; 
+    color:#b8bb26 !important ; 
     font-size: .875rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.25rem;
     
     letter-spacing: normal;
@@ -804,12 +804,40 @@ code,.faq-button-ogb{
 }
         
         
-        
-        
-        
-        
-        
-        
+     
+     /*Bard activity if off link button */   
+		.link-button{
+			color:#b57614 !important;
+		
+		}
+		
+        /*bard activity if off text*/
+		
+.mat-drawer {
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+    position: relative;
+    z-index: 4;
+    color: #a89988 !important;;
+    background-color: #17191b !important;;
+    border-top-right-radius: var(--mat-sidenav-container-shape);
+    border-bottom-right-radius: var(--mat-sidenav-container-shape);
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    outline: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+    transform: translate3d(-100%, 0, 0);
+}
+
+		/*delete data link*/
+		/*delete past data */
+        .mat .mat-sidenav,  a {
+  color: #fb4934 !important;
+  text-decoration: none;
+}
         
         
         
