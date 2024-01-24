@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Google Bard Gruvbox Dark
 @namespace    github/bilalazh
-@version      1.0.7
+@version      1.0.6
 @description  "A Dark Theme for Google Bard \"bard.google.com\""
 @author       heybilalazhar@gmail.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
@@ -770,18 +770,38 @@ code,.faq-button-ogb{
 }   
         
         
+		
+		
+		
+		/*Reset chat button */
+		/*reset chat button on the chat page */
+		
 /*New chat  button new color (looks better )          */
 .gmat-subtitle-2 {
 
     color:#babd1c !important ; 
     font-size: .875rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.25rem;
-    font-family: "Google Sans","Helvetica Neue",sans-serif;
+    
     letter-spacing: normal;
 }
-        
-        
+ 
+		/*reseet chat button bg color*/
+        .mat-sidenav-container.mat-sidenav-container.mat-sidenav-container[_ngcontent-ng-c941609787]   .mat-sidenav[_ngcontent-ng-c941609787]   .new-conversation[_ngcontent-ng-c941609787] {
+    background-color: #3c3836 !important;;
+    color: var(--bard-color-on-new-conversation-button);
+    border-radius: 30px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding-inline: 16px 20px;
+}
         
         
         
@@ -898,6 +918,27 @@ code,.faq-button-ogb{
 
 
 
+		
+		
+		
+		
+		
+		
+/*ALL button  		 */
+		
+		button {
+   
+  
+    color: #fb4934 !important;
+    padding: 2px 12px;
+}
+		
+
+		
+
+		
+		
+		
     
 
     }
