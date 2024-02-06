@@ -1,7 +1,8 @@
+
 /* ==UserStyle==
 @name         Google Bard Gruvbox Dark
 @namespace    github/bilalazh
-@version      2.0
+@version      2.1
 @description  "A Dark Theme for Google Bard \"bard.google.com\""
 @author       heybilalazhar@gmail.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
@@ -482,11 +483,11 @@ location-footer.ng-star-inserted {
     
 /*hover on text can  change it's color to helo you read a line better*/
 .markdown p[data-sourcepos]:hover {
-    color: #b8bb26 !important;  /* Override other styles */
+    color: #689d6a !important;  /* Override other styles */
 }
 
     div.markdown.markdown-main-panel ol li:hover, div.markdown.markdown-main-panel ul li:hover {
-    color: #fabd2f !important;
+    color: #d6bc8c !important;
 }
 
     
@@ -662,7 +663,7 @@ div.markdown>p:hover,
     /* Bulleted text colors */
     .markdown ol li, .markdown ul li {
     margin-bottom: 10px;
-         color: #fdf6e3 !important ;
+         color: #98971a !important ;
 }
 
 /* Recent , caution and bard may display inaccurate information buttons*/
@@ -909,7 +910,7 @@ code,.faq-button-ogb{
     /*Change the color of the table text td when you hover over it */
     /*You just the text in the active column will be highlighted*/
 .markdown table td:hover {
-    color: #fabd2f !important; /* Gruvbox green color on hover */
+    color: #d5c4a1 !important; /* Gruvbox green color on hover */
 }
 
 /*Set the table footer to black*/
